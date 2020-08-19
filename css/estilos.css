@@ -3,3 +3,40 @@ color:crimson;
 font-size: 24px;
 text-align: center;
 }
+
+
+nav {
+   background-color: #FF5050;
+   color: white;
+   padding-top: 5px ;
+   padding-bottom: 5px;
+}
+
+
+
+nav li {
+    display: inline-flex;  
+     margin: 0 2vw;
+     font-family: 'Raleway Dots', cursive;
+
+    }
+
+
+nav li:hover {
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}    
+
+
+
+.card {
+    grid-template-columns: 100px  600px ;
+    grid-template-rows: auto 10px;
+}
+
+.card-image{
+    grid-column: 1;
+}
+.card-details{
+  grid-column: 2;
+}
